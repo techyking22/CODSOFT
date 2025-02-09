@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Showroom</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        html { scroll-behavior: smooth; }
+        body {
+            background: url('https://wallpapercave.com/wp/wp2092324.jpg') no-repeat center center/cover;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <!-- Navigation -->
+    <nav class="bg-gray-900 text-white py-4 px-6 fixed top-0 w-full flex justify-between items-center shadow-md">
+        <h1 class="text-xl font-bold">Luxury Cars</h1>
+        <ul class="flex space-x-6">
+            <li><a href="#hero" class="hover:text-gray-400">Home</a></li>
+            <li><a href="#models" class="hover:text-gray-400">Models</a></li>
+            <li><a href="#features" class="hover:text-gray-400">Features</a></li>
+            <li><a href="#contact" class="hover:text-gray-400">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section id="hero" class="h-screen flex flex-col items-center justify-center text-center bg-black bg-opacity-50 text-white">
+        <h1 class="text-5xl font-bold animate-fade-in">Welcome to Luxury Cars</h1>
+        <p class="mt-4 text-lg animate-fade-in">Experience the thrill of driving with our premium car collection.</p>
+        <a href="#models" class="mt-6 px-6 py-3 bg-white text-indigo-600 rounded-full shadow-md text-lg font-semibold hover:bg-gray-200 transition">Explore Models</a>
+    </section>
+    
+    <!-- Car Models Section -->
+    <section id="models" class="py-16 text-center">
+        <h2 class="text-4xl font-bold">Our Car Models</h2>
+        <div class="mt-8 grid md:grid-cols-3 gap-8 px-8">
+            <div class="bg-white p-6 rounded-xl shadow-md">
+                <h3 class="text-2xl font-semibold">Sports Edition</h3>
+                <p class="mt-2">High-speed performance with a sleek design.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-md">
+                <h3 class="text-2xl font-semibold">Luxury SUV</h3>
+                <p class="mt-2">Comfort meets power in our premium SUVs.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-md">
+                <h3 class="text-2xl font-semibold">Electric Future</h3>
+                <p class="mt-2">Eco-friendly cars with cutting-edge technology.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Features Section -->
+    <section id="features" class="py-16 text-center bg-gray-900 text-white">
+        <h2 class="text-4xl font-bold">Why Choose Us?</h2>
+        <div class="mt-8 grid md:grid-cols-3 gap-8 px-8">
+            <div class="bg-gray-800 p-6 rounded-xl shadow-md">
+                <h3 class="text-2xl font-semibold">Top Performance</h3>
+                <p class="mt-2">Experience high-speed driving with ultimate safety.</p>
+            </div>
+            <div class="bg-gray-800 p-6 rounded-xl shadow-md">
+                <h3 class="text-2xl font-semibold">Luxury Comfort</h3>
+                <p class="mt-2">Premium interiors with the best-in-class features.</p>
+            </div>
+            <div class="bg-gray-800 p-6 rounded-xl shadow-md">
+                <h3 class="text-2xl font-semibold">Latest Technology</h3>
+                <p class="mt-2">Smart controls, AI-assisted driving, and more.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-gray-200 text-center">
+        <h2 class="text-4xl font-bold">Contact Us</h2>
+        <p class="mt-4">Email: showroom@luxurycars.com | Phone: +123 456 7890</p>
+        <p class="mt-2">Visit us at: 123 Luxury Road, Car City</p>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="py-6 bg-gray-900 text-white text-center">
+        <p>&copy; 2025 Luxury Cars. All rights reserved.</p>
+    </footer>
+</body>
+</html>
